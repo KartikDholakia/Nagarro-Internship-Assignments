@@ -1,0 +1,27 @@
+#box {
+	background-color: beige;
+    height: 300px;
+    width: 700px;
+    visibility: hidden;
+}
+
+/* #hide-button {
+	visibility: hidden;
+} */
+
+html,
+body {
+  height: 100%;
+}
+
+.page-content {
+  flex: 1 0 auto;
+}
+
+#box.show{
+	visibility: visible;
+}
+
+/* .hide {
+	visibility: hidden;
+} */
