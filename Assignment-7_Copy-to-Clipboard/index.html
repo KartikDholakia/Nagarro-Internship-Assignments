@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Copy-to-Clipboard</title>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" crossorigin="anonymous">
+	<link rel="stylesheet" href="styles.css">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body class="d-flex flex-column">
+	<div class="container">
+        <h1>Copy to Clipboard</h1>
+        <div id="elementId" class="iconcircle">
+            <i class="material-icons shadowicon">file_copy</i>
+        </div>
+        <div class="example">
+            <span class="grey">//usage example</span>
+            <br />
+            <span class="blue">createCopy</span>(<span class="blue">'</span><span class="green">Sample text to copy</span><span class="blue">', '</span><span class="green">elementId</span><span class="blue">', </span><span class="purple">function </span><span class="blue">() {</span>
+            <br />
+            <span class="blue tab">alert</span>(<span class="blue">'</span><span class="green">A callback function to show your text was copied successfully!</span><span class="blue">'</span>)<span class="blue">;</span>
+            <br />
+            <span class="blue">}</span>)<span class="blue">;</span>
+        </div>
+    </div>	
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+	<script src="scripts.js"></script>
+
+	<footer id="sticky-footer" class="flex-shrink-0 py-4 bg-dark text-white-50">
+		<div class="container text-center">
+		  <small>Kartik Dholakia JIIT 2022</small>
+		</div>
+	</footer>
+</body>
+</html>
