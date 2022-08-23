@@ -1,5 +1,11 @@
 # Nagarro Summer Internship 2022
-Links to hosted projects:
+
+### Internship Projects:
+- Twitter Clone Repository: https://github.com/KartikDholakia/Nagarro-Internship-Assignments/tree/master/Internship-Project-Twitter-Clone
+- E-Commerce Repository: https://github.com/KartikDholakia/Nagarro-Internship-Assignments/tree/master/Internship-Project-E_Commerce
+
+
+### Links to hosted Assignments:
 
 - To Do: https://kartikdholakia.github.io/Nagarro-To-Do-Tasks/
 
